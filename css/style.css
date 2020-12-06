@@ -1,0 +1,183 @@
+.navbar{
+  padding: 0 1rem;
+}
+
+.navbar-brand{
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+
+}
+/*UST-BOLUM*/
+.menu-link {
+    font-weight: 600;
+    margin-left: 1rem;
+    font-size:1.2rem !important;
+    font-style: normal;
+    letter-spacing: .05em;
+    text-transform: capitalize;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+
+}
+
+.nav-link:hover{
+  color:#F39F1B !important;
+  /*border-top: 3px solid #040F4F;*/
+}
+
+h1.baslik{
+  font-size:3.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+}
+h4.aciklama{
+  font-size:2rem;
+  font-weight: 300;
+  letter-spacing: -0.05rem !important;
+  color:#040F4F;
+  /* margin-left: 200px; */
+  padding-bottom: 35px;
+}
+
+.ust-kisim {
+  padding: 0 30px 0 0;
+}
+
+.yukselik-hesapla{
+  height: calc(100vh - 80px);
+}
+h5.aciklama2{
+    font-size:1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem !important;
+    margin-top:40px;
+    margin-bottom: 30px;
+}
+.alpha{
+  opacity: 0.9;
+}
+
+.buton{
+  background-color:#040F4F;
+  color: #ffffff;
+
+}
+
+/*3lü bölüm*/
+.bolum-baslik{
+  font-size:2rem;
+  font-weight: 300;
+  color:#040F4F;
+}
+.fantesting{
+  font-weight: bold;
+  color:#F39F1B;
+}
+.border-bolumarasi{
+  border-bottom: 1px solid #dddddd;
+}
+
+.border-enalt{
+  border-bottom: 1px solid #fff;
+}
+.sayi{
+  font-size:3rem;
+  font-weight: 300;
+  line-height: 1;
+  padding-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  color:#dddddd;
+}
+
+
+/* bize ulaşın */
+.bize-ulasin form{
+  border : 1px solid #040F4F;
+  border-radius: 10px;
+  padding: 40px 20px 20px 20px;
+
+}
+
+.bize-ulasin form::before{
+  content: "Contact Us";
+  position: absolute;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f8f9fa;
+  top:-12px;
+  left:calc(50% - 50px);
+}
+
+/* yorumlar */
+
+.yorum-yuvarla{
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0 20px 20px;
+}
+
+.sola-cizgi{
+  border-left: 5px solid #040F4F;
+}
+
+.carousel-control-next {
+  width:22px;
+  height:22px;
+  top:0;
+  position:absolute;
+}
+
+.carousel-control-prev {
+  width:22px;
+  height:22px;
+  top:0;
+  right:40px !important;
+  position:absolute;
+}
+
+/* blog */
+.yazi-baslik{
+
+}
+.blog-link{
+  color: #444;
+  text-decoration: none;
+}
+.blog-link:hover{
+  overflow: hidden;
+  color: #444;
+  text-decoration: none;
+}
+.blog-link img{
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  border-radius: 5px;
+}
+
+.blog-link:hover img{
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+/* footer */
+.neredeyiz div.font-weight-bold,.social-medya div.font-weight-bold{
+  font-size:1.2rem;
+}
+.social-medya ul{
+  list-style:none;
+  padding-left: 0 !important;
+}
+.social-medya ul li{
+}
+
+.text-small {
+  font-size:0.8rem;
+}
