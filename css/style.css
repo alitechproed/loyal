@@ -46,6 +46,7 @@
     font-weight: 900;
     line-height: .93;
     letter-spacing: 0.1rem;
+    text-color:#030F4F;
   }
   h4.aciklama{
     font-size:4rem;
@@ -92,7 +93,7 @@
 }
 
 .alpha{
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .buton{
@@ -100,6 +101,25 @@
   color: #ffffff;
 
 }
+
+.waicon{
+  color: green;
+  margin-right:5px;
+
+}
+
+
+.watop{
+border-radius: 50px ;
+/* font-size: 2em ; */
+background-color: #F39F1B;
+color: #040F4F;
+
+padding: inherit;
+}
+
+
+
 
 /*3lü bölüm*/
 .bolum-baslik{
@@ -219,4 +239,24 @@
 
 .text-small {
   font-size:0.8rem;
+}
+
+.enalt{
+  border-radius: 50px ;
+  height: 40px ;
+  width: 115px ;
+  /* font-size: 2em ; */
+}
+.birenalt{
+  background-color: #F39F1B;
+  color: #fff !important;
+}
+.ikienalt{
+  background-color: #040F4F;
+  color: #fff !important;
+}
+
+.ucenalt{
+  background-color: #04b464;
+  color: #fff !important;
 }
