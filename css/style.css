@@ -56,18 +56,29 @@
   h5.aciklama2{
       font-size:1.2rem;
       font-weight: 400;
-      letter-spacing: 0.1rem !important;
+      letter-spacing: 0.2rem !important;
       margin-top:60px;
+      text-align: justify;
+      line-height: 1.5;
   }
   .top-padding-large {
     padding-top: 3rem !important;
   }
+  .alt-alta button {
+    margin-top: 5px;
+  }
 }
 
 @media (max-width: 991px) {
-  .neredeyiz, .social-medya{
-    margin-top:20px;
+ .alt-alta {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
   }
+  .alt-alta button {
+    margin-top: 5px;
+  }
+
+
   .bize-ulasin {
     margin-top: 30px;
   }
@@ -102,8 +113,12 @@
 
 }
 
+
+
+
+
 .waicon{
-  color: green;
+  color: white;
   margin-right:5px;
 
 }
@@ -112,7 +127,7 @@
 .watop{
 border-radius: 50px ;
 /* font-size: 2em ; */
-background-color: #F39F1B;
+background-color: var(--green);
 color: #040F4F;
 
 padding: inherit;
@@ -237,6 +252,22 @@ padding: inherit;
 .social-medya ul li{
 }
 
+.social-medya ul li:nth-child(1):hover {
+  color:red !important;
+}
+
+.social-medya ul li:nth-child(2):hover {
+  color:var(--cyan) !important;
+}
+
+.social-medya ul li:nth-child(3):hover {
+  color:var(--pink) !important;
+}
+
+.social-medya ul li:nth-child(4):hover {
+  color:var(--purple) !important;
+}
+
 .text-small {
   font-size:0.8rem;
 }
@@ -248,7 +279,7 @@ padding: inherit;
   /* font-size: 2em ; */
 }
 .birenalt{
-  background-color: #F39F1B;
+  background-color: var(--green);
   color: #fff !important;
 }
 .ikienalt{
@@ -257,6 +288,6 @@ padding: inherit;
 }
 
 .ucenalt{
-  background-color: #04b464;
+  background-color: var(--cyan);
   color: #fff !important;
 }
